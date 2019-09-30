@@ -1,9 +1,13 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: Trebuchet, Arial, sans-serif;
     background-color:#3b3f45;
     /*padding: 15px; безусловно, не самый лучший способ задать рамку на странице */
     /* некрасиво работает. очень некрасиво. нужно найти метод покруче. */
-    height: 50vw;
+    min-height: 100%;
     border:10px solid #fff;
     box-sizing: border-box;
 }
